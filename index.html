@@ -31,27 +31,20 @@
 <link rel="alternate" hreflang="en" href="https://moraremipanema.com/?lang=en">
 <link rel="alternate" hreflang="x-default" href="https://moraremipanema.com/">
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-8389746871"></script>
+<!-- Google tag (gtag.js) — Google Ads account 996-256-5639 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18308409015"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments)}
-gtag("js", new Date());
-gtag("config", "AW-8389746871");
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'AW-18308409015');
+</script>
 
-function gtag_report_conversion(url) {
-  const callback = function () {
-    if (url) window.location.href = url;
-  };
-
-  gtag("event", "conversion", {
-    send_to: "AW-8389746871/K9gECLOn68wcELfNkJpE",
-    event_callback: callback,
-    event_timeout: 2000
-  });
-
-  return false;
-}
+<!-- Google Ads website-call conversion: Ligação (21995532222) -->
+<script>
+gtag('config', 'AW-18308409015/N2L8CJLQy80cELfNkJpE', {
+  'phone_conversion_number': '21995532222'
+});
 </script>
 
 <script type="application/ld+json">
@@ -275,7 +268,7 @@ footer{padding:30px 0;text-align:center;color:var(--muted);font-size:.82rem;bord
       <button id="send" type="button" data-i18n="form-submit">Enviar pelo WhatsApp
         <svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-1.7-.1-.4-.1-.9-.3-1.6-.6-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8 0-1.3.7-2 .9-2.2.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5.2.5.7 1.8.8 1.9.1.1.1.3 0 .5l-.3.5-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1.2-.2.7-.8.9-1.1.2-.3.4-.2.6-.1.2.1 1.5.7 1.7.9.2.1.4.2.5.3.1.2.1.7-.1 1.3Z"/></svg>
       </button>
-      <a class="phone-link" href="tel:+5521995532222" onclick="return gtag_report_conversion(this.href)" data-i18n="call-now">Ligue agora · (21) 99553-2222</a>
+      <a class="phone-link" href="tel:+5521995532222" data-i18n="call-now">Ligue agora · (21) 99553-2222</a>
       <p class="note" data-i18n="form-privacy">Seus dados vão apenas para o meu WhatsApp. Nada é armazenado neste site.</p>
     </div>
   </div>
@@ -473,11 +466,6 @@ document.querySelectorAll("[data-whatsapp]").forEach(a => {
   a.href = waLink(currentLang === "pt" ? baseMsgPt : baseMsgEn);
   a.target = "_blank";
   a.rel = "noopener";
-  a.addEventListener("click", () => {
-    gtag("event", "conversion", {
-      send_to: "AW-8389746871/K9gECLOn68wcELfNkJpE"
-    });
-  });
 });
 
 document.getElementById("send").addEventListener("click", () => {
@@ -493,9 +481,6 @@ document.getElementById("send").addEventListener("click", () => {
   if (f) msg += "\n" + (currentLang === "pt" ? "Telefone" : "Phone") + ": " + f;
   msg += "\n\n" + (m || (currentLang === "pt" ? "Gostaria de agendar uma visita." : "I'd like to schedule a visit."));
   
-  gtag("event", "conversion", {
-    send_to: "AW-8389746871/K9gECLOn68wcELfNkJpE"
-  });
   window.open(waLink(msg), "_blank", "noopener");
 });
 
