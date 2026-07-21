@@ -1,9 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Home / Main Page -->
   <url>
     <loc>https://www.moraremipanema.com/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.moraremipanema.com/fotos/og-capa.jpg</image:loc>
+      <image:title>Apartamento em Ipanema - Vista do mar</image:title>
+    </image:image>
+  </url>
+
+  <!-- Gallery Section -->
+  <url>
+    <loc>https://www.moraremipanema.com/#galeria</loc>
+    <lastmod>2026-07-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.moraremipanema.com/fotos/apartamento-ipanema-sala-varanda-vista-mar.jpg</image:loc>
+      <image:title>Sala de estar com vista para o mar</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.moraremipanema.com/fotos/suite-master-ipanema-closet.jpg</image:loc>
+      <image:title>Suíte master com grande closet planejado</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.moraremipanema.com/fotos/cozinha-gourmet-ipanema.jpg</image:loc>
+      <image:title>Cozinha gourmet com ilha e sala de jantar integrada</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.moraremipanema.com/fotos/suite-master-ipanema-quarto.jpg</image:loc>
+      <image:title>Quarto da suíte master com painel de parede</image:title>
+    </image:image>
+  </url>
+
+  <!-- Details / Technical Specs Section -->
+  <url>
+    <loc>https://www.moraremipanema.com/#detalhes</loc>
+    <lastmod>2026-07-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact Section -->
+  <url>
+    <loc>https://www.moraremipanema.com/#contato</loc>
+    <lastmod>2026-07-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
 </urlset>
