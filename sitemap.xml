@@ -1,55 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <!-- Home / Main Page -->
   <url>
     <loc>https://www.moraremipanema.com/</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-10-09</lastmod>
     <image:image>
       <image:loc>https://www.moraremipanema.com/fotos/og-capa.jpg</image:loc>
-      <image:title>Apartamento em Ipanema - Vista do mar</image:title>
+      <image:title>Apartamento de alto padrão em Ipanema com vista para o mar</image:title>
     </image:image>
-  </url>
-
-  <!-- Gallery Section -->
-  <url>
-    <loc>https://www.moraremipanema.com/#galeria</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
     <image:image>
-      <image:loc>https://www.moraremipanema.com/fotos/apartamento-ipanema-sala-varanda-vista-mar.jpg</image:loc>
-      <image:title>Sala de estar com vista para o mar</image:title>
+      <image:loc>https://www.moraremipanema.com/fotos/sala-estar-ipanema-vista-mar.jpg</image:loc>
+      <image:title>Sala de estar integrada com vista para o mar em Ipanema</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.moraremipanema.com/fotos/suite-master-ipanema-closet.jpg</image:loc>
-      <image:title>Suíte master com grande closet planejado</image:title>
+      <image:title>Suíte master com closet planejado</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.moraremipanema.com/fotos/cozinha-gourmet-ipanema.jpg</image:loc>
       <image:title>Cozinha gourmet com ilha e sala de jantar integrada</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.moraremipanema.com/fotos/suite-master-ipanema-quarto.jpg</image:loc>
-      <image:title>Quarto da suíte master com painel de parede</image:title>
+      <image:loc>https://www.moraremipanema.com/fotos/living-integrado-ipanema.jpg</image:loc>
+      <image:title>Living integrado com poltronas e paisagismo</image:title>
     </image:image>
-  </url>
-
-  <!-- Details / Technical Specs Section -->
-  <url>
-    <loc>https://www.moraremipanema.com/#detalhes</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Contact Section -->
-  <url>
-    <loc>https://www.moraremipanema.com/#contato</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.moraremipanema.com/fotos/cozinha-planejada-ipanema.jpg</image:loc>
+      <image:title>Cozinha planejada com bancada e marcenaria sob medida</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.moraremipanema.com/fotos/banheiro-suite-master-ipanema.jpg</image:loc>
+      <image:title>Banheiro da suíte master com duas cubas e mármore</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.moraremipanema.com/fotos/lavabo-ipanema.jpg</image:loc>
+      <image:title>Lavabo com marcenaria ripada e espelho iluminado</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.moraremipanema.com/fotos/suite-master-ipanema-quarto.jpg</image:loc>
+      <image:title>Quarto da suíte master com painel e acesso ao closet</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.moraremipanema.com/fotos/escritorio-ipanema.jpg</image:loc>
+      <image:title>Escritório com bancada planejada</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.moraremipanema.com/fotos/quarto-ipanema.jpg</image:loc>
+      <image:title>Quarto com armário planejado</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.moraremipanema.com/fotos/area-servico-dependencia-ipanema.jpg</image:loc>
+      <image:title>Área de serviço ampla com dependência completa</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.moraremipanema.com/fotos/banheiro-social-ipanema.jpg</image:loc>
+      <image:title>Banheiro social com box e revestimento amadeirado</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.moraremipanema.com/fotos/adega-bar-ipanema.jpg</image:loc>
+      <image:title>Adega e bar com obra de arte e clima praiano</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.moraremipanema.com/fotos/banheiro-suite-vista-quarto-ipanema.jpg</image:loc>
+      <image:title>Banheiro da suíte com bancada dupla e vista para o quarto</image:title>
+    </image:image>
   </url>
 </urlset>
